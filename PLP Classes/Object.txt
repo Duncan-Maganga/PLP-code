@@ -1,0 +1,7 @@
+# creating the input file
+with open('input.txt, 'w') as a file:
+    file.write("Hello, this is file I am creating now.")
+    file.write("Hello again, this is the second file I am creating now.")
+    file.write("Hi there, this is another file with will be creating.)
+    file.write("This is the last file to be created.")
+    

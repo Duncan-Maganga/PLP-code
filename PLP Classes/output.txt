@@ -1,0 +1,10 @@
+Processed Text File:
+==================================================
+HELLO, THIS THE FIRST FILE
+THIS IS THE SECOND LINE
+THIS IS THE THIRD LINE
+THIS IS THE FOURTH LINE
+THIS IS THE FIFTH LINE
+
+==================================================
+Total word count: 25
