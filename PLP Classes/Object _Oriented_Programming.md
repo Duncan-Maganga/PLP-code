@@ -1,9 +1,13 @@
-# Best Practices   
-- Use with for file handling: Auto-close files, preventing potential leaks.  
-- Check file existence before reading/writing, to avoid crashes.  
-- Handle specific exceptions over general ones (e.g., FileNotFoundError instead of Exception).  
-- Document error messages clearly for easier debugging and user support.  
+# Exception Handling
 
+Errors happen! To make sure your programs are error-proof and user-friendly, Python provides Exception Handling. It’s the art of catching errors and handling them gracefully.
+
+### Basic Structure of try-except Blocks ⚙
+
+**try:** Runs code that might throw an error.  
+**except:** Catches the error, allowing you to respond without crashing.  
+
+**Example**
 ```
 # creating input.txt file 
 
@@ -56,3 +60,8 @@ def process_text_file():
 # RUN THE FUNCTION
 process_text_file()
 ```
+# Best Practices   
+- Use with for file handling: Auto-close files, preventing potential leaks.  
+- Check file existence before reading/writing, to avoid crashes.  
+- Handle specific exceptions over general ones (e.g., FileNotFoundError instead of Exception).  
+- Document error messages clearly for easier debugging and user support.  
