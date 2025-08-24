@@ -8,6 +8,10 @@ Errors happen! To make sure your programs are error-proof and user-friendly, Pyt
 **except:** Catches the error, allowing you to respond without crashing.  
 
 **Example**
+I created a program that reads a file and writes a modified version to a new one. I also built in error handling by asking the user for a filename and managing cases where the file doesn’t exist or can’t be read. Through this, I learned how to manage files efficiently in Python and handle errors gracefully, which allows me to build stronger and more reliable applications.
+
+
+**Check it out ===>**
 ```
 # creating input.txt file 
 
